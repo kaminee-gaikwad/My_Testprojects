@@ -16,15 +16,15 @@ json_data = '''
     "users": [
         {
             "age": 22,
-            "name": "john"
+            "name": "john_USA"
         },
         {
             "age": 21,
-            "name": "riya"
+            "name": "riya_NJ"
         },
         {
             "age": 20,
-            "name": "Hari"
+            "name": "Hari_NYC"
         }
        ]
 }   
