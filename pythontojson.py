@@ -25,7 +25,8 @@ class User():
         return dict
 
 users = [User("roma",16).convert_to_dict_user(), User("soni",17).convert_to_dict_user(),
-        User("Jack",18).convert_to_dict_user(), User("avi",15).convert_to_dict_user()]
+        User("Jack",18).convert_to_dict_user(), User("avi",15).convert_to_dict_user(),
+        User("Jary",18).convert_to_dict_user(), User("Myara",17).convert_to_dict_user()]
 
 #json_data = json.dumps(users)
 #print(json_data)
