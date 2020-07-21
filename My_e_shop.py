@@ -29,7 +29,7 @@ def add_user():
         return admin_menu()
 
     while invalid_name(users, user_name):
-        user_name = input("user already exists, enter new user name: ")
+        user_name = input("***user name already exists, enter new user name: ")
     password = getpass.getpass('Enter the password')
     users.append({
         'user_id': len(users),
